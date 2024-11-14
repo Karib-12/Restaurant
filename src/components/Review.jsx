@@ -4,7 +4,7 @@ import './Review.css';
 import design1 from './Image/design1.png';
 import person from './Image/person.png';
 import tomato from './Image/tomato.png';
-import leef from './Image/leef.png';
+// import leef from './Image/leef.png';
 
 class Review extends React.Component {
     render () {

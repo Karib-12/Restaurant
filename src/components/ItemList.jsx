@@ -2,28 +2,32 @@ import React from "react";
 import './ItemList.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import sideimage from './Image/sideimage.png';
+import burgur from './Image/burgur.png';
+import pizza0 from './Image/pizza0.png';
+import fry from './Image/fry.png';
+import chicken from './Image/chicken.png';
+// import sideimage from './Image/sideimage.png';
 
 const items = [ 
     { 
         name: "Vegetables Burger", 
         description: "Barbecue Italian cuisine burger", 
-        image: "src/components/Image/burgur.png" 
+        image: burgur 
     }, 
     { 
         name: "Spacial Pizza", 
         description: "Barbecue Italian cuisine pizza", 
-        image: "src/components/Image/pizza0.png" 
+        image: pizza0 
     }, 
     { 
         name: "Spacial French Fries", 
         description: "Crispy french fries", 
-        image: "src/components/Image/fry.png" 
+        image: fry
     }, 
     { 
         name: "Cuisine Chicken", 
         description: "Japanese cuisine chicken", 
-        image: "src/components/Image/chicken.png" 
+        image: chicken
     } 
 ]; 
 
