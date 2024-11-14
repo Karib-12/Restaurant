@@ -1,0 +1,215 @@
+.about {
+    position: relative;
+    background-color: white;
+    border: solid 1px white;
+}
+
+.about1 {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    gap: 6rem;
+}
+
+.picture {
+    width: 38rem;
+    height: auto;
+}
+.Market-Place {
+    position: absolute;
+    margin-left: -38rem;
+    margin-top: 2rem;
+}
+
+.dummy{
+    display: list-item;
+    list-style: none;
+    margin-top: -1rem;
+}
+.dummy-nav {
+    border-bottom: 1.5px #B52B1D solid;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.dummy-nav li {
+    display: inline;
+    padding: .5rem;
+}
+.dummy-nav a {
+    text-decoration: none;
+    color: #333333;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.dummy-nav li:hover, .dummy-nav li.active {
+    background-color: #B52B1D;
+}
+.dummy-nav a:hover {
+    color: #FFFFFF;
+}
+
+.about-content h1 {
+    font: 2.5em Bebes Nenu;
+}
+
+.content {
+    display: flex;
+    padding: 1rem 0;
+}
+.about-more {
+    padding: 1rem;
+    color: #0A1425;
+    font-weight: bold;
+    background-color: #FEBF00;
+    border: none;
+    font-size: 0.9rem;
+}
+.contact {
+    padding: 1rem;
+    display: flex;
+    gap: .5rem;
+}
+.phone-icon {
+    color: #B52B1D;
+    width: 1.5rem;
+    height: auto;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    margin-bottom: 2rem;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.card1 img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.delivery-title, .dining-title, .pickup-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A0A0A; 
+    margin: 0;
+    margin-top: 10px;
+}
+
+.delivery-subtitle, .dining-subtitle, .pickup-subtitle {
+    font-size: 14px;
+    color: #666666;
+    margin-top: 5px;
+}
+
+.delivery-card, .dining-card, .pickup-card {
+    max-width: 150px;
+}
+
+.side-image {
+    position: absolute;
+    right: 0rem;
+    bottom: 8rem;
+    overflow: hidden;
+    width: 5rem;
+    height: 13rem;
+}
+.sideimage {
+    width: 13rem;
+}
+
+@media (max-width: 1441px) {
+    .about1 {
+        margin-left: 12rem;
+        margin-right: 12rem;
+        gap: 3rem;
+    }
+    .picture {
+        width: 30rem;
+    }
+    .Market-Place {
+        margin-left: -30rem;
+        margin-top: 1rem;
+        width: 12rem;
+    }
+    .about-content h1 {
+        font: 2em Bebes Nenu;
+    }
+}
+@media (max-width: 1025px) {
+    .about1 {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .picture {
+        width: 25rem;
+    }
+    .Market-Place {
+        margin-left: -25rem;
+    }
+    .about-content h1 {
+        font: 1.5em Bebes Nenu;
+    }
+    .about-content p {
+        font-size: .86rem;
+    }
+    .about2 {
+        padding: 30px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 2rem;
+    }
+    .side-image {
+        bottom: 4rem;
+        overflow: hidden;
+        width: 4rem;
+        height: 13rem;
+    }
+    .sideimage {
+        width: 10rem;
+    }
+}
+@media (max-width: 426px) {
+    .about1 {
+        margin: 5rem 1rem;
+        display: list-item;
+        list-style: none;
+    }
+    .marketplace {
+        margin-bottom: 3rem;
+    }
+    .picture {
+        width: 24rem;
+        height: auto;
+    }
+    .Market-Place {
+        margin-left: -24rem;
+    }
+    .about-more {
+        padding: 0.6rem;
+    }
+    .about2 {
+        display: list-item;
+        list-style: none;
+        margin-left: 3rem;
+        margin-top: -7rem;
+    }
+    .card1 {
+        margin-top: 1rem;
+    }
+    .sideimage {
+        display: none;
+    }
+}
