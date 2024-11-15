@@ -67,7 +67,7 @@ class ItemList extends React.Component {
                         autoPlaySpeed={2500} 
                         keyBoardControl={true} 
                         containerClass="carousel-container" 
-                        removeArrowOnDeviceType={["tablet", "mobile"]} 
+                        removeArrowOnDeviceType={["tablet"]} 
                         dotListClass="custom-dot-list-style" 
                         itemClass="carousel-item-padding-40-px" > 
                             {items.map((item, index) => ( 

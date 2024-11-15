@@ -53,10 +53,10 @@
     color: #777; 
 } 
 .custom-dot-list-style li { 
-    background: #ddd; 
+    background: #ddd;
 } 
 .custom-dot-list-style li.slick-active button:before { 
-    color: #000; 
+    color: #000;
 } 
 .custom-dot-list-style li button:before { 
     font-size: 12px; 
