@@ -4,14 +4,18 @@ import './Review.css';
 import design1 from './Image/design1.png';
 import person from './Image/person.png';
 import tomato from './Image/tomato.png';
-// import leef from './Image/leef.png';
+import leef from './Image/leef.png';
 
 class Review extends React.Component {
     render () {
         return (
             <div id="blog" className="frame5">
-                <img src={tomato} alt="tomato" className="tomato" />
-                {/* <img src={leef} alt="leef" className="leef" /> */}
+                <div className="tomato-box">
+                    <img src={tomato} alt="tomato" className="tomato" />
+                </div>
+                <div className="leef-box">
+                    <img src={leef} alt="leef" className="leef" />
+                </div>
                 <div>
                     <li>Crispy, Every Bite Taste</li>
                     <h1>What Some of my Customers Say</h1>

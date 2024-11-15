@@ -3,22 +3,37 @@
     background-color: white;
 }
 
-.tomato {
+.frame5 li {
+    list-style: square;
+    color: #BD1F17;
+}
+
+.tomato-box {
     position: absolute;
-    width: 170px;
-    margin-left: -15%;
+    overflow: hidden;
+    width: 10rem;
+    height: auto;
+    margin-left: -8%;
+}
+.tomato {
+    width: 13rem;
+    transform: translateX(-50%)
+}
+.leef-box {
+    position: absolute;
+    overflow: hidden;
+    width: 12rem;
+    height: auto;
+    right: 0;
+    margin-top: 20rem;
 }
 .leef {
-    position: absolute;
-    width: 300px;
-    margin-left: 83%;
-    margin-top: 22%;
-    transform: rotate(22deg);
+    width: 20rem;
+    transform: rotate(45deg);
 }
 
 .review-block {
     display: flex;
-    border: solid 1px;
 }
 
 .review {
@@ -32,11 +47,6 @@
     font-size: 30px;
     position: absolute;
     margin: -12px;
-    /* font-weight: 400;
-    line-height: 76.57px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none; */
 }
 
 .review-post {
@@ -44,7 +54,6 @@
 }
 
 .reviewer {
-    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
     margin-top: 30%;
@@ -71,5 +80,39 @@
     position: absolute;
     margin-left: -3.4%;
     margin-top: -4%;
-    width: 20px;
+    width: 25px;
+}
+
+@media (max-width: 1441px) {
+    .leef-box {
+        width: 10rem;
+    }
+}
+@media (max-width: 1025px) {
+    .leef-box {
+        width: 7.5rem;
+    }
+    .leef {
+        width: 16rem;
+    }
+    .tomato {
+        width: 8rem;
+    }
+}
+@media (max-width: 426px) {
+    .leef-box {
+        display: none;
+    }
+    .tomato-box {
+        display: none;
+    }
+    .review-block {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .review {
+        width: 92%;
+        background: #FEBF00;
+        padding: 4%;
+    }
 }

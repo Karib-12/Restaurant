@@ -18,8 +18,8 @@
     height: 100vw;
     /* background-color: rgb(255, 70, 70); */
     background-color: rgba(204, 62, 62, 0.7);
-
     padding: 2rem;
+    backdrop-filter: blur(2rem);
 }
 
 .mobile-menu.active {
