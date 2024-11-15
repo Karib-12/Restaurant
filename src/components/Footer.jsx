@@ -18,33 +18,33 @@ class Footer extends React.Component {
                             <div className="boxcard">
                                 <div>
                                     <FiClock className="icon"/>
-                                    <h2 className="">Opening hours</h2>
-                                    <p className="tt">Monday - Sunday</p>
-                                    <p className="tt">9:00 AM to 11:30 PM</p>
+                                    <h2>Opening hours</h2>
+                                    <p>Monday - Sunday</p>
+                                    <p>9:00 AM to 11:30 PM</p>
                                 </div>
                             </div>
                             <div className="boxcard">
                                 <div>
                                     <FiPhoneCall className="icon"/>
-                                    <h2 className="">LET&apos;S TALK</h2>
-                                    <p className="tt">Phone: 1-800-222-4545</p>
-                                    <p className="tt">Fax: 1-800-222-4545</p>
+                                    <h2 >LET&apos;S TALK</h2>
+                                    <p>Phone: 1-800-222-4545</p>
+                                    <p>Fax: 1-800-222-4545</p>
                                 </div>
                             </div>
                             <div className="boxcard">
                                 <div>
                                     <MdMailOutline className="icon"/>
-                                    <h2 className="">BOOK A TABLE</h2>
-                                    <p className="tt">Email: demo@website.com</p>
-                                    <p className="tt">Support: support@website.com</p>
+                                    <h2>BOOK A TABLE</h2>
+                                    <p>Email: demo@website.com</p>
+                                    <p>Support: support@website.com</p>
                                 </div>
                             </div>
                             <div className="boxcard">
-                                <div className="location">
+                                <div>
                                     <GrLocation className="icon"/>
                                     <h2>Our Address</h2>
-                                    <p className="tt">123 Stree New York City,</p>
-                                    <p className="tt">United States Of America.</p>
+                                    <p>123 Stree New York City,</p>
+                                    <p>United States Of America.</p>
                                 </div>
                             </div>
                         </div>

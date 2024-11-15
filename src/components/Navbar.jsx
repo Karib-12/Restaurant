@@ -33,13 +33,11 @@ const Navbar = () => {
             <li><Link to="blog" smooth={true} className="nav-item">Blog</Link></li>
             <li><Link to="footer" smooth={true} className="nav-item">Contact</Link></li>
           </ul>
-          {/* <button className="booktable" onClick={() => {}}>BOOK A TABLE</button> */}
           <Link to="book-table" smooth={true}>
             <button className="booktable" onClick={() => {}}>BOOK A TABLE</button>
           </Link>
           <button className="menu-btn" onClick={toggleMenu}>
             <span className={"material-symbole-outlinre"} style={{ fontSize: "1.8rem", background: "transparent"}}>
-              {/* <IoMenu /> */}
               {openMenu ? <IoCloseSharp /> : <IoMenu />}
             </span>
           </button>

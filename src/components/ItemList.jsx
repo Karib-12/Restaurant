@@ -6,7 +6,7 @@ import burgur from './Image/burgur.png';
 import pizza0 from './Image/pizza0.png';
 import fry from './Image/fry.png';
 import chicken from './Image/chicken.png';
-// import sideimage from './Image/sideimage.png';
+import sideimage from './Image/sideimage.png';
 
 const items = [ 
     { 
@@ -21,7 +21,7 @@ const items = [
     }, 
     { 
         name: "Spacial French Fries", 
-        description: "Crispy french fries", 
+        description: "Barbecue Italian cuisine", 
         image: fry
     }, 
     { 
@@ -34,7 +34,7 @@ const items = [
 const responsive = { 
     superLargeDesktop: { 
         breakpoint: { max: 4000, min: 3000 }, 
-        items: 4 
+        items: 5 
     }, 
     desktop: { 
         breakpoint: { max: 3000, min: 1024 }, 
@@ -42,7 +42,7 @@ const responsive = {
     }, 
     tablet: { 
         breakpoint: { max: 1024, min: 464 }, 
-        items: 2 
+        items: 3 
     }, 
     mobile: { 
         breakpoint: { max: 464, min: 0 }, 
@@ -59,9 +59,6 @@ class ItemList extends React.Component {
                         <p>Crispy, Every Bite Taste</p>
                         <h4>POPULAR FOOD ITEMS</h4>
                     </div>
-                    {/* <div className="content2">
-
-                    </div> */}
                 </div>
                 <div className="Item">
                     <Carousel responsive={responsive} 
@@ -83,7 +80,9 @@ class ItemList extends React.Component {
                             }
                     </Carousel>
                 </div>
-                {/* <img src={sideimage} alt="sideimg" className="sideimg" /> */}
+                <div className="sideimg-box">
+                    <img src={sideimage} alt="sideimg" className="sideimg" />
+                </div>
             </div>
         );
     }
